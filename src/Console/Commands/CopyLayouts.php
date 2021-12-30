@@ -43,6 +43,7 @@ class CopyLayouts extends Command
 
         if (!File::exists($destination)) {
             File::copyDirectory($source, $destination);
+            File::copy("vendor/ferdousanam/adminlte3/src/views/starter.blade.php", "resources/views/admin/starter.blade.php");
             $this->info("$destination file copied successfully");
         } else {
             $this->error("Whoops! $destination file or directory already exists");
