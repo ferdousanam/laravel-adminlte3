@@ -1,0 +1,32 @@
+{
+    "name": "ferdousanam/adminlte3",
+    "description": "This package is a wrapper of adminlte 3",
+    "keywords": ["laravel", "adminlte3"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferdous Anam",
+            "email": "ferdous.anam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/laravel": "*",
+        "almasaeed2010/adminlte": "~3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anam\\Adminlte\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anam\\Adminlte\\AdminlteServiceProvider"
+            ]
+        }
+    }
+}
