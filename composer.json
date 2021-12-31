@@ -1,5 +1,6 @@
 {
     "name": "ferdousanam/adminlte3",
+    "type": "library",
     "description": "This package is a wrapper of adminlte 3 which includes Laravel AdminLTE 3 Scaffold Generator",
     "keywords": [
         "laravel",
@@ -14,6 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "laravel/laravel": "*",
         "almasaeed2010/adminlte": "~3.1.0"
