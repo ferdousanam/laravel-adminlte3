@@ -1,7 +1,11 @@
 {
     "name": "ferdousanam/adminlte3",
-    "description": "This package is a wrapper of adminlte 3",
-    "keywords": ["laravel", "adminlte3"],
+    "description": "This package is a wrapper of adminlte 3 which includes Laravel AdminLTE 3 Scaffold Generator",
+    "keywords": [
+        "laravel",
+        "adminlte3",
+        "adminlte3 scaffold generator"
+    ],
     "license": "MIT",
     "authors": [
         {
