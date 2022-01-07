@@ -3,7 +3,7 @@
 @elseif ($type=='edit')
     <a href="{{ $url }}" class="dropdown-item"><i class="fas fa-pencil-alt"></i> {{ $slot->isNotEmpty() ? $slot : 'Edit' }}</a>
 @elseif ($type=='destroy')
-    <a href="javascript:" onclick="deleted('{{$url}}')" class="dropdown-item text-danger"><i class="fas fa-trash"></i> {{ $slot->isNotEmpty() ? $slot : 'Delete' }}</a>
+    <a href="javascript:" onclick="deleteRecord('{{$url}}')" class="dropdown-item text-danger"><i class="fas fa-trash"></i> {{ $slot->isNotEmpty() ? $slot : 'Delete' }}</a>
 @elseif ($type=='media')
     <a href="{{ $url }}" class="dropdown-item"><i class="fas fa-upload"></i> {{ $slot->isNotEmpty() ? $slot : 'Media Upload' }}</a>
 @elseif ($type=='activity')
